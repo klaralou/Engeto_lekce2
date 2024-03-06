@@ -1,0 +1,87 @@
+.product_card {
+  width: 450px;
+  padding: 16px;
+  position: relative;
+  border: 1px solid burlywood;
+}
+
+.shipping_details {
+  display: inline-block;
+  background-color: rgb(201, 225, 201);
+  font-weight: bold;
+  font-size: 14;
+  padding: 4px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 0 6px 6px 0;
+  padding: 4px 16px;
+}
+
+.product_image_container {
+  height: 250px;
+  text-align: center;
+}
+
+.product_title {
+  color: rgba(80, 33, 33, 0.514);
+  font-size: 34px;
+  line-height: 1;
+}
+
+.producte_description {
+  margin-bottom: 4px;
+  margin-top: 1.5px;
+  margin-bottom: 28px;
+}
+
+.info {
+  color: rgb(249, 168, 70);
+  text-decoration: underline;
+}
+
+.product_price_container {
+  background-color: burlywood;
+  border: 2px solid rgb(162, 188, 188);
+  position: relative;
+  padding: 24px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+
+.product_price {
+  text-decoration: underline;
+}
+
+.product_discount_price_container {
+  background-color: rgb(223, 49, 78);
+  position: relative;
+  padding: 24px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product_add_to_card_container {
+  position: relative;
+  right: 24px;
+  top: 35px;
+}
+.butonn {
+  position: absolute;
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-block;
+  padding: 8px;
+  border: 2px solid burlywood;
+  background-color: rgb(162, 188, 188);
+  border-radius: 6px;
+}
+
+.delivery_details {
+  background-color: rgb(113, 196, 113);
+  border: 2px solid burlywood;
+  padding: 24px;
+  border-radius: 6px;
+}
